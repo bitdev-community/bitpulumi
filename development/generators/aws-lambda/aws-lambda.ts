@@ -34,7 +34,6 @@ export class AwsLambdaComponentTemplate implements ComponentTemplate {
   generateFiles(context: ComponentContext): ComponentFile[] {
     return [
       indexFile(context),
-      compositionFile(context),
       componentFile(context),
       testFile(context),
     ];

@@ -26,14 +26,14 @@
     "envs/lambda-env": {
         "name": "envs/lambda-env",
         "scope": "bitpulumi.development",
-        "version": "0.0.6",
+        "version": "0.0.7",
         "mainFile": "index.ts",
         "rootDir": "development/envs/lambda-env"
     },
     "generators/aws-lambda": {
         "name": "generators/aws-lambda",
         "scope": "bitpulumi.development",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "development/generators/aws-lambda"
     },
@@ -47,7 +47,7 @@
     "lambdas/hello-lambda": {
         "name": "lambdas/hello-lambda",
         "scope": "bitpulumi.awsdemo",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "mainFile": "index.ts",
         "rootDir": "awsdemo/lambdas/hello-lambda"
     },
