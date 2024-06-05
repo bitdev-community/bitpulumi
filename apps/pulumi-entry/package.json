@@ -1,0 +1,9 @@
+{
+    "name": "pulumi-support",
+    "version": "1.0.0",
+    "description": "Minimal package.json to support pulumi",
+    "main": "index.ts",
+    "author": "",
+    "license": "MIT"
+  }
+  

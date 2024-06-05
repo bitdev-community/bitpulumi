@@ -1,0 +1,4 @@
+name: simple-app
+runtime: nodejs
+description: A minimal AWS TypeScript Pulumi that uses Bit
+main: index.ts
