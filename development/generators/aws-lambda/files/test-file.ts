@@ -6,7 +6,7 @@ export const testFile = (context: ComponentContext) => {
   return {
     relativePath: name + '.spec.ts',
     content: `import { APIGatewayProxyHandler } from 'aws-lambda';
-    import { handler } from './handler';
+    import { handler } from './${name}';
     
     describe('Lambda Handler', () => {
       it('should return a 200 status code and success message', async () => {
