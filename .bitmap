@@ -12,7 +12,7 @@
     "api-gateway": {
         "name": "api-gateway",
         "scope": "bitpulumi.awsdemo",
-        "version": "0.0.3",
+        "version": "0.0.4",
         "mainFile": "index.ts",
         "rootDir": "awsdemo/api-gateway"
     },
@@ -54,7 +54,7 @@
     "pulumi-entry": {
         "name": "pulumi-entry",
         "scope": "bitpulumi.apps",
-        "version": "0.0.67",
+        "version": "0.0.68",
         "mainFile": "index.ts",
         "rootDir": "apps/pulumi-entry"
     },

@@ -9,7 +9,7 @@ export function apiRoutes(endpointName: string) {
         method: "GET",
         eventHandler: new bitpulumi.awsx.Lambda(
           "hello-lambda",
-          require.resolve("@bitpulumi/awsdemo.services.hello-service"),
+          require.resolve("@bitpulumi/awsdemo.lambdas.hello-lambda"),
           {
             environment: {
               variables: { DATE_TYPE: "Today" }, // Optional environment variables
